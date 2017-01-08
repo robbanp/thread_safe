@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gemspec
+gem 'json', github: 'flori/json', branch: 'v1.8'
 
 group :development, :test do
   gem 'rspec', '~> 3.2.0'
